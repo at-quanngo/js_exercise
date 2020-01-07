@@ -1,6 +1,6 @@
 var a = parseInt(prompt("Nhập số a"));
 var b = parseInt(prompt("Nhập số b"));
-		
+
 /*function sumTriple (x, y) {
   if (x == y) {
     return 3 * (x + y);
@@ -11,6 +11,4 @@ var b = parseInt(prompt("Nhập số b"));
    }
  }
  console.log(sumTriple(a, b));*/
- console.log((a+b)*(a==b ? 3:1));
-
-
+console.log((a + b) * (a == b ? 3 : 1));
